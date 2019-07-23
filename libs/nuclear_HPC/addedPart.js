@@ -8,7 +8,7 @@ function defin() {
     html += "<div style='width: 100%; min-height: 10px;'></div>";
 
     html += "<div class='row'>";
-    html += "<div class='col-9'>";
+    html += "<div class='col'>";
     html += "<div class='row no-gutters border rounded overflow-hidden flex-md-row mt-2 shadow-sm h-md-250 position-static'>";
     html += "<table class='table table-bordered table-sm table-striped table-hover' style='margin:7px;'>";
     html += "<thead>";
@@ -70,10 +70,10 @@ function defin() {
     html += "</div>";
     html += "</div>";
 
-    html += "<div class='col-3'>";
-    html += "<iframe src='http://inflation.iamkate.com/calculator/' width='264' height='200'\
-            sandbox='allow-scripts allow-top-navigation' style='margin-top:8px'></iframe>";
-    html += "</div>";
+//     html += "<div class='col-3'>";
+//     html += "<iframe src='http://inflation.iamkate.com/calculator/' width='264' height='200'\
+//             sandbox='allow-scripts allow-top-navigation' style='margin-top:8px'></iframe>";
+//     html += "</div>";
     html += "</div>";
 
     /* --- */
