@@ -1,9 +1,17 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2019-07-23 12:57:07 +0200
+title: "乾坤大挪移 | Welcome to Jekyll!"
+date: 2019-07-22 10:00:00 +0200
 categories: hello-world
 ---
+# 写在前面
+
+两年没有更新博客，恍若隔世，发现 Github Pages 都开始支持全局 https 了……碰巧业务需求，最近学了些前端开发，灵机一动，就又想起了这个险 (已) 些 (然) 被遗弃的静态 blog。
+
+这期间电脑也重装了，之前的 Hexo 源文件不知在何时删掉，于是大换血一波，迁移到跟 Github 适配更好的 Jekyll，以后再慢慢折腾主题。
+
+---
+
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
