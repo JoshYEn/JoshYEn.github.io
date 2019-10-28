@@ -5,8 +5,6 @@ date: 2019-10-23 14:37:00 +0200
 categories: web
 ---
 
-# R Studio Server + HTTPS Enabled
-
 最近尝试了 AWS 的 Spot request，跟普通的同配置 EC2 比起来价格下降了巨多，所以也能 afford 一下高配置的虚拟机。2 Core & 2G RAM 足够跑一跑 `R Studio Server`，月付 5 刀，堪堪跟 1C & 1G RAM 的小鸡持平，性价比就起来了。跑代码的速度比免费的 R Studio Cloud 要快一些，但缺点也不是完全没有，于是画风一转，就开始研究 Nginx 反代 + TLS Encrypt。。。
 
 
