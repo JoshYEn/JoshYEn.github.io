@@ -1,67 +1,79 @@
 ---
 layout: null
-title: timeline (point-estimate)
+title: A Basic Demo of the Tableau Web Data Connector with an SDMX-JSON API Using ABS Data
+<!-- Tableau WDC Tool -->
 permalink: /:collection/tableau-wdc
-<!-- categories: tools -->
 ---
 
 <!DOCTYPE html>
-
-<html lang="en">
+<html lang="en-US">
 
 <head>
+	<meta charset="UTF-8">
+	<!-- Begin Jekyll SEO tag v2.4.0 -->
+	<!-- <title>A Basic Demo of the Tableau Web Data Connector with an SDMX-JSON API Using ABS Data | ABS_SDMX-JSON_API</title> -->
+	<meta name="generator" content="Jekyll v3.7.3" />
+	<meta property="og:title"
+		content="A Basic Demo of the Tableau Web Data Connector with an SDMX-JSON API Using ABS Data" />
+	<meta property="og:locale" content="en_US" />
+	<meta name="description"
+		content="Demo of Tableau WDC for Australian Bureau of Statistics - ABS.Stat Developer API (JSON)" />
+	<meta property="og:description"
+		content="Demo of Tableau WDC for Australian Bureau of Statistics - ABS.Stat Developer API (JSON)" />
+	<link rel="canonical" href="https://joshyen.github.io/tools/tableau-wdc" />
+	<meta property="og:url" content="https://joshyen.github.io/tools/tableau-wdc" />
+	<!-- <meta property="og:site_name" content="Tableau WDC Tool" /> -->
+	<meta http-equiv="Cache-Control" content="no-store" />
 
-	<!-- <title>timeline (point-estimate)</title> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" crossorigin="anonymous"></script>
+	<script src="https://connectors.tableau.com/libs/tableauwdc-2.3.latest.js" type="text/javascript"></script>
+	<script src="householdProjections.js" type="text/javascript"></script>
 
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-	<link rel="stylesheet" href="/libs/bootstrap/4.2.1/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="/libs/timeline/current/ui.css" />
-
+	<script type="application/ld+json">
+    {"name":"ABS_SDMX-JSON_API","description":"Demo of Tableau WDC for Australian Bureau of Statistics - ABS.Stat Developer API (JSON)","@type":"WebSite","url":"https://joshyen.github.io/tools/tableau-wdc","headline":"A Basic Demo of the Tableau Web Data Connector with an SDMX-JSON API Using ABS Data","@context":"http://schema.org"}</script>
+	<!-- End Jekyll SEO tag -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#157878">
+	<link rel="stylesheet" href="/ABS_SDMX-JSON_API/assets/css/style.css?v=c6a71685a3835b7090b52f46f943cda7a8b933cc">
 </head>
 
 <body>
-	<nav class="navbar navbar-light sticky-top bg-light">
-		<a class="navbar-brand" href="#">
-			<img src="/libs/nuclear_HPC/LabAix.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-			<span>Timeline Web</span>
-		</a>
-		<span class="navbar-text">
-			TIMELINE provides a financial valuation basis for investment projects.
-		</span>
-	</nav>
+	<section class="page-header">
+		<h1 class="project-name">ABS_SDMX-JSON_API</h1>
+		<h2 class="project-tagline">Demo of Tableau WDC for Australian Bureau of Statistics - ABS.Stat Developer API
+			(JSON)</h2>
 
-	<div class="cls_space"></div>
-	<div class="cls_defin"></div>
+		<a href="https://github.com/aprince/ABS_SDMX-JSON_API" class="btn">View on GitHub</a>
 
-	<div class="cls_space"></div>
-	<div class="cls_phasz"></div>
+		<h2 style="text-align:center;" id="Household Projections, Australia, 2011 to 2036">Household Projections,
+			Australia, 2011 to 2036</h2>
+		<a style="text-align:center;" id="submitButton" class="btn">Get the mothertruckin' DATA!</a>
+	</section>
+	<section class="main-content">
+		<h2 id="a-basic-demo-of-the-tableau-web-data-connector-with-an-sdmx-json-api-using-abs-data">A Basic Demo of the
+			Tableau Web Data Connector with an SDMX-JSON API Using ABS Data</h2>
+		<p>A very basic example of using Tableau’s WDC to connect to the Australian Bureau of Statistics (ABS) SDMX-JSON
+			API, I couldnt find any other reference examples of connectors to the huge ABS dataset so hopefully this
+			will be useful to someone out there!</p>
 
-	<div class="cls_space"></div>
-	<div class="cls_tline"></div>
+		<h2 id="references">References</h2>
+		<ul>
+			<li> <a
+					href="http://www.abs.gov.au/websitedbs/D3310114.nsf/home/ABSstat+User+Assistance+Material">http://www.abs.gov.au/</a>
+			</li>
+			<li> <a href="https://github.com/tableau/webdataconnector">https://github.com/tableau/webdataconnector</a>
+			</li>
+			<li> <a href="http://www.tableau.com/">http://www.tableau.com/</a></li>
+			<li> <a href="http://www.tableau.com/">https://sdmx.org/</a></li>
+		</ul>
+		<footer class="site-footer">
 
-	<div class="cls_space"></div>
-	<div class="cls_cashf"><svg></svg></div>
+			<span class="site-footer-owner"><a href="https://github.com/aprince/ABS_SDMX-JSON_API">ABS_SDMX-JSON_API</a>
+				is maintained by <a href="https://github.com/aprince">aprince</a>.</span>
 
-	<div class="cls_space"></div>
-	<div class="cls_vtabl"></div>
-
-	<div class="cls_space"></div>
-	<div class="cls_space"></div>
-
-	<script src="/libs/d3/4.13.0/d3.min.js"></script>
-	<script src="/libs/jquery/3.0.0/jquery.min.js"></script>
-	<script src="/libs/bootstrap/4.2.1/js/bootstrap.bundle.min.js"></script>
-	<script src="/libs/smartquotes/2.3.1/smartquotes.js"></script>
-	<script src="/libs/filesaver/2.0.0/filesaver.min.js"></script>
-	<script src="/libs/timeline/current/color.js"></script>
-	<script src="/libs/timeline/current/math.js"></script>
-	<script src="/libs/timeline/current/type.js"></script>
-	<script src="/libs/timeline/current/techno.js"></script>
-	<script src="/libs/timeline/current/timeline.js"></script>
-	<script src="/libs/nuclear_HPC/projectDefinition.js"></script>
-	<script src="/libs/nuclear_HPC/addedPart.js"></script>
-	<script src="/libs/timeline/current/ui.js"></script>
+		</footer>
+	</section>
 
 </body>
 
