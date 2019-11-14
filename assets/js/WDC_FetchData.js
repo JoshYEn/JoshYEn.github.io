@@ -27,6 +27,10 @@
             id: "OBS",
             alias: "Observation",
             dataType: tableau.dataTypeEnum.float
+        }, {
+            id: "UNI",
+            alias: "Unit",
+            dataType: tableau.dataTypeEnum.string
         }];
 
         var tableSchema = {
@@ -93,7 +97,8 @@
                     "POL": resp.structure.dimensions.observation[1].values[arrKey[1]].name,
                     "VAR": resp.structure.dimensions.observation[2].values[arrKey[2]].name,
                     "TIME_PERIOD": resp.structure.dimensions.observation[3].values[arrKey[3]].name,
-                    "OBS": obsvs[Object.keys(obsvs)[i]][0]
+                    "OBS": obsvs[Object.keys(obsvs)[i]][0],
+                    "UNI": resp.structure.attributes.observation[2].values[obsvs[Object.keys(obsvs)[i]][3]].name
                 });
             }
 
