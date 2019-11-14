@@ -54,6 +54,7 @@ collections:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+# enable JS in assets
 assets:
   defaults:
     js: { integrity: true } # true on JEKYLL_ENV=production
