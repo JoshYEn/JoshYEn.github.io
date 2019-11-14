@@ -53,3 +53,7 @@ collections:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+assets:
+  defaults:
+    js: { integrity: true } # true on JEKYLL_ENV=production
