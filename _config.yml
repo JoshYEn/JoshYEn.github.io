@@ -14,14 +14,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: 厳さんの日常
-# author: ゲン　アン
+author: ゲン　アン
 # email: yaanjosh@gmail.com
 description: |
   望用何愁晩&nbsp;&nbsp;求名漸得寧
   雲梯終有望&nbsp;&nbsp;帰路入蓬瀛
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://wild.anyen.xyz" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://blog.anyan.me" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: joshanyan
 github_username:  JoshYEn
 

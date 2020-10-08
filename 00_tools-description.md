@@ -8,6 +8,6 @@ permalink: /tools/
 
 这里是一些基于web的项目。
 
-- [Timeline (demo)](https://wild.anyen.xyz/tools/timeline-beta)
-- [Tableau Web Data Connector (WDC)](https://wild.anyen.xyz/wdc-oecd-sdmx-json/)
+- [Timeline (demo)](https://blog.anyan.me/tools/timeline-beta)
+- [Tableau Web Data Connector (WDC)](https://blog.anyan.me/wdc-oecd-sdmx-json/)
 
