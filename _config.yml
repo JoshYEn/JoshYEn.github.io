@@ -25,14 +25,18 @@ url: "https://blog.anyan.me" # the base hostname & protocol for your site, e.g. 
 # twitter_username: joshanyan
 github_username:  JoshYEn
 
+
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
 paginate: 10
-
 permalink: /posts/:year/:month-:day-:title:output_ext
+
+
+# Google Analytics
+google_analytics: G-WENNNNHSBJ
 
 
 # 定义集合
@@ -53,6 +57,7 @@ collections:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
 
 # enable JS in assets
 assets:
